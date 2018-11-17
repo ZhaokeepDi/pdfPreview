@@ -2,13 +2,12 @@ import React from 'react';
 function FirstComponent(props){
     return(
         <div>
-            这是第二个组件
+            
             <h1>
-                 这是传递过来的参数{props.name}
-                 这是传递过来的参数{props.obj.ss}
+            这是第二个组件
             </h1>
+            {/* <button onClick={props.toChildrenNews.bind(null,"我是参数")}>调用父组件的函数</button> */}
         </div>
-       
     )
 }
 export default FirstComponent

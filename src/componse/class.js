@@ -10,14 +10,14 @@ export default class Clafirst extends React.Component{
     }
     render(){
         return(
-            <div id="ssssss" onClick={this.handleBtnClick.bind(this,888,99)}>
+            <div id="ssssss" >
             
                <h1 style={style.firstSty}>
                 父组件传递的数据{this.props.name}
                </h1> 
                <h1>状态的组件名称{this.state.name}</h1>
                <h1>状态——年龄{this.state.yers}</h1>
-               <button onClick={ this.handleBtnClick }>事件中this的处理</button>
+               <button onClick={this.handleBtnClick.bind(this,888,99)}>事件中this的处理</button>
             </div>
         )
     }
@@ -25,10 +25,9 @@ export default class Clafirst extends React.Component{
         this.setState({
             yers:50
         })
-        alert("hhhhhhhhhh")
     }
     handleBtnClick(arg1, arg2) {
-        alert(arg1,arg2)
+        console.log(this)
         this.setState({
           msg: '点击事件修改state的值' + arg1 + arg2
         })
