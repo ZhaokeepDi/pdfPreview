@@ -1,0 +1,53 @@
+<import src="/pages/sort/multiplesort.vue.wxml" />
+<template name="b1798856">
+  <scroll-view class="_scroll-view data-v-a196eeda content column gap">
+    <view class="_view data-v-a196eeda center itemCenter top bbx gap white">
+      <view class="_view data-v-a196eeda picker center itemCenter">
+        <picker mode="selector" range="{{indexData.position}}" bindchange="handleProxy" data-eventid="{{'F1B-0'}}" data-comkey="{{$k}}" class="_picker data-v-a196eeda">
+          <view class="_view data-v-a196eeda">{{textValue}}</view>
+        </picker>
+        <view class="_view data-v-a196eeda trigo reght"></view>
+      </view>
+      <view class="_view data-v-a196eeda serch">
+        <image src="../../static/index/sousuo.jpg" style="width:16px;height:16px" class="_image data-v-a196eeda"></image>
+        <input class="_input data-v-a196eeda h-all" type="text" placeholder="搜索食物" />
+      </view>
+    </view>
+    <view class="_view data-v-a196eeda swiper" style="background:red white">
+      <swiper class="_swiper data-v-a196eeda all" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}">
+        <swiper-item class="_swiper-item data-v-a196eeda all" wx:for="{{indexData.switerImg}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-a196eeda swiper-item all">
+            <image class="_image data-v-a196eeda all" src="{{item}}" mode="widthFix"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-a196eeda food-type gap white">
+      <view class="_view data-v-a196eeda column center itemCenter" wx:for="{{indexData.typeList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-a196eeda food-icon">
+          <image src="{{item.icon}}" class="_image data-v-a196eeda"></image>
+        </view>
+        <txst class="_txst data-v-a196eeda">{{item.name}}</txst>
+      </view>
+    </view>
+    <view class="_view data-v-a196eeda column white">
+      <view class="_view data-v-a196eeda center gr itemCenter bbx">
+        <text class="_text data-v-a196eeda">————</text>
+        <text class="_text data-v-a196eeda">推荐商家</text>
+        <text class="_text data-v-a196eeda">————</text>
+      </view>
+      <view class="_view data-v-a196eeda space sort-type bbx itemCenter">
+        <text bindtap="handleProxy" data-eventid="{{'4aD-1'}}" data-comkey="{{$k}}" class="_text data-v-a196eeda">综合排序</text>
+        <text bindtap="handleProxy" data-eventid="{{'ru7-2'}}" data-comkey="{{$k}}" class="_text data-v-a196eeda">人气最高</text>
+        <text bindtap="handleProxy" data-eventid="{{'lby-3'}}" data-comkey="{{$k}}" class="_text data-v-a196eeda">距离最近</text>
+      </view>
+      <view class="_view data-v-a196eeda center sort space">
+        <view wx:if="{{groop[0]!=0}}" hidden="{{!(groop[0]==1)}}" class="_view data-v-a196eeda">
+          <template data="{{...$root['0'], ...$root[$kk+'JTB-2'],$root}}" is="7ba95df9"></template>
+        </view>
+        <view wx:if="{{groop[1]!=0}}" hidden="{{!(groop==2)}}" class="_view data-v-a196eeda"> 人气最高 </view>
+        <view wx:if="{{groop[2]!=0}}" hidden="{{!(groop==3)}}" class="_view data-v-a196eeda"> 距离最近 </view>
+      </view>
+    </view>
+  </scroll-view>
+</template>

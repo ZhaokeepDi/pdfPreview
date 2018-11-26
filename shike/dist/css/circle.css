@@ -1,0 +1,43 @@
+.white{
+	background:white
+}
+.mb{
+	margin-bottom:10px
+}
+.new-list{
+	padding:0 16px;
+	padding:0 15px;
+}
+.new-list>view{
+	width:100%;
+}
+.news-header{
+	height:45px;
+	padding:9px;
+}
+.news-content{
+	height:150px;
+}
+.news-header button{
+	padding:2px 3px;
+	font-size:10px;
+}
+.news-content image{
+	max-width:100%;
+	max-height:140px;
+}
+.news-footer{
+	height:32px;
+	padding:8px 0;
+}
+.news-footer>view>view{
+	align-items: center;
+}
+.orange{
+	color:#FF6600;
+}
+.news-footer>view{
+	border:1px solid #8C8C8C;
+	border-left:0;
+	border-right:0;
+}

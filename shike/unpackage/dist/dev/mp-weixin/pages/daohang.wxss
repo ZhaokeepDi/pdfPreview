@@ -1,0 +1,42 @@
+
+scroll-view.data-v-195115c2 {
+  height: 100px;
+  background: red;
+}
+.content.column.data-v-195115c2 {
+  height: 100%;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.map_container.data-v-195115c2 {
+  position: absolute;
+  top: 0;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+}
+.map.data-v-195115c2 {
+  width: 100%;
+  height: 100%;
+}
+.map_text.data-v-195115c2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 80px;
+  background: #fff;
+  padding: 0 15px;
+}
+text.data-v-195115c2 {
+  margin: 5px 0;
+  display: block;
+  font-size: 12px;
+}
+.h1.data-v-195115c2 {
+  margin: 15px 0;
+  font-size: 15px;
+}

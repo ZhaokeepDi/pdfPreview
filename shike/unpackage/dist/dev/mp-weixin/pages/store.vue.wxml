@@ -1,0 +1,16 @@
+<import src="/components/serch.vue.wxml" />
+<import src="/components/header.vue.wxml" />
+<import src="/components/display.vue.wxml" />
+<template name="40c752a4">
+  <scroll-view class="_scroll-view data-v-525c02c2 content column">
+    <view class="_view data-v-525c02c2 column" style="padding:0 16px;">
+      <template data="{{...$root['0'], ...$root[$kk+'rep-0'],$root}}" is="6d5285ea"></template>
+      <template data="{{...$root['0'], ...$root[$kk+'KrR-1'],$root}}" is="0b479b38"></template>
+    </view>
+    <view class="_view data-v-525c02c2 footer bbx whit column">
+      <view class="_view data-v-525c02c2 column footer-recommend" wx:for="{{indexData.recommend}}" wx:for-index="index" wx:for-item="item">
+        <template data="{{...$root['0'], ...$root[$kk+'B5P-2-'+index],$root}}" is="7fe61827"></template>
+      </view>
+    </view>
+  </scroll-view>
+</template>

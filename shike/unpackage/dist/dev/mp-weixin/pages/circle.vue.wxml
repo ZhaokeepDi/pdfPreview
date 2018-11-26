@@ -1,0 +1,49 @@
+<import src="/components/header.vue.wxml" />
+<template name="c5360b5a">
+  <scroll-view class="_scroll-view data-v-e6375efc content column">
+    <view class="_view data-v-e6375efc white" style="padding: 0 28px;">
+      <template data="{{...$root['0'], ...$root[$kk+'fOd-0'],$root}}" is="0b479b38"></template>
+    </view>
+    <view class="_view data-v-e6375efc mb column">
+      <view class="_view data-v-e6375efc white column">
+        <view class="_view data-v-e6375efc new-list column">
+          <view class="_view data-v-e6375efc news-header bbx space">
+            <view class="_view data-v-e6375efc row-centenr space">
+              <view style="width:25px;height:25px" class="_view data-v-e6375efc">
+                <image class="_image data-v-e6375efc all" src="../../static/index/dinwei.jpg"></image>
+              </view>
+              <view class="_view data-v-e6375efc column">
+                <text style="font-size:9px" class="_text data-v-e6375efc orange">id</text>
+                <text style="font-size:7.5px" class="_text data-v-e6375efc main-color"> 时间 </text>
+              </view>
+            </view>
+            <view class="_view data-v-e6375efc">
+              <button class="_button data-v-e6375efc bbx">已关注</button>
+            </view>
+          </view>
+          <view class="_view data-v-e6375efc news-content"></view>
+        </view>
+        <view class="_view data-v-e6375efc news-footer column">
+          <view class="_view data-v-e6375efc around all main-color">
+            <view class="_view data-v-e6375efc">
+              <text class="_text data-v-e6375efc icon iconfont icon-fenlei icon-chakan1"></text>
+              <text class="_text data-v-e6375efc">1231</text>
+            </view>
+            <view class="_view data-v-e6375efc">
+              <text class="_text data-v-e6375efc icon iconfont icon-fenlei icon-xiaoxi"></text>
+              <text class="_text data-v-e6375efc">1233</text>
+            </view>
+            <view class="_view data-v-e6375efc">
+              <text class="_text data-v-e6375efc icon iconfont icon-fenlei icon-xihuan1"></text>
+              <text class="_text data-v-e6375efc">1233</text>
+            </view>
+            <view class="_view data-v-e6375efc">
+              <text class="_text data-v-e6375efc icon iconfont icon-fenlei icon-fenxiang"></text>
+              <text class="_text data-v-e6375efc">1233</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</template>

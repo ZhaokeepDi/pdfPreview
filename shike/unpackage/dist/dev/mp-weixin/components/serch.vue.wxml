@@ -1,0 +1,6 @@
+<template name="6d5285ea">
+  <view class="_view data-v-1e75f793 serch bbx white border">
+    <text class="_text data-v-1e75f793 icon iconfont icon-fenlei icon-sousuo"></text>
+    <input type="text" placeholder="搜索美食或者店铺" class="_input data-v-1e75f793" />
+  </view>
+</template>

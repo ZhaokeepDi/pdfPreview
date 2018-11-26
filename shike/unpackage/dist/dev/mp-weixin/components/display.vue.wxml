@@ -1,0 +1,22 @@
+<template name="7fe61827">
+  <view class="_view data-v-75f3c390 radius5 all column space" style=" {{'background:url(' + item.img + ') 100% 100%/100% 100%'}}">
+    <view class="_view data-v-75f3c390 restaurant space bbx" style="padding:0 8px">
+      <view class="_view data-v-75f3c390 column-centenr itemCenter" style="height:52px;">
+        <image src="{{item.icon}}" style="border-radius:50%" class="_image data-v-75f3c390"></image>
+        <text class="_text data-v-75f3c390">狄大人</text>
+      </view>
+      <view style="color:white;line-height:27px" class="_view data-v-75f3c390">
+        <text class="_text data-v-75f3c390">{{item.praise}}</text>
+      </view>
+    </view>
+    <view class="_view data-v-75f3c390 bbx space itemCenter shadow-box">
+      <view class="_view data-v-75f3c390 all shadow"></view>
+      <view class="_view data-v-75f3c390 all space itemCenter shadow-top">
+        <navigator class="_navigator data-v-75f3c390 h-all" url="{{'hhhhhhh'+item.url}}">
+          <text class="_text data-v-75f3c390 ellipsis">这里是产品介绍</text>
+        </navigator>
+        <text class="_text data-v-75f3c390 radius5 preferential">这是优惠</text>
+      </view>
+    </view>
+  </view>
+</template>

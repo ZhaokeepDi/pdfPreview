@@ -1,0 +1,1 @@
+<import src="/pages/day_good.vue.wxml" /><template is="0cf1ee43" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,31 @@
+<import src="/components/serch.vue.wxml" />
+<import src="/components/header.vue.wxml" />
+<template name="13afba36">
+  <scroll-view class="_scroll-view data-v-361b7125 content ">
+    <template data="{{...$root['0'], ...$root[$kk+'qV9-0'],$root}}" is="6d5285ea"></template>
+    <template data="{{...$root['0'], ...$root[$kk+'DLa-1'],$root}}" is="0b479b38"></template>
+    <view class="_view data-v-361b7125 list space">
+      <view class="_view data-v-361b7125 radius5 column" wx:for="{{indexData.recommend}}" wx:for-index="index" wx:for-item="item">
+        <image src="{{item.img}}" class="_image data-v-361b7125"></image>
+        <view class="_view data-v-361b7125 indent list-c column space">
+          <text class="_text data-v-361b7125">脆薄薯片</text>
+          <view class="_view data-v-361b7125 space itemCenter praise">
+            <view class="_view data-v-361b7125">
+              <text class="_text data-v-361b7125 radius5 fan">反20元</text>
+            </view>
+            <view class="_view data-v-361b7125">
+              <view class="_view data-v-361b7125">
+                <text class="_text data-v-361b7125 icon iconfont icon-fenlei icon-xihuan" style="color:#FF0000"></text>
+                <text class="_text data-v-361b7125">1231</text>
+              </view>
+              <view class="_view data-v-361b7125">
+                <text class="_text data-v-361b7125 icon iconfont icon-fenlei icon-shoucang" style="color:#F4EA2A"></text>
+                <text class="_text data-v-361b7125">888</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</template>

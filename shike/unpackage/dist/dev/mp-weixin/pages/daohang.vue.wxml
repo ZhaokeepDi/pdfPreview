@@ -1,0 +1,11 @@
+<template name="18e5a611">
+  <scroll-view class="_scroll-view data-v-195115c2 content column" style="height:500px">
+    <view class="_view data-v-195115c2 map_container">
+      <map class="_map data-v-195115c2 map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
+    </view>
+    <view class="_view data-v-195115c2 map_text">
+      <text class="_text data-v-195115c2 h1">{{textData.name}}</text>
+      <text class="_text data-v-195115c2">{{textData.desc}}</text>
+    </view>
+  </scroll-view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/list/circle.vue.wxml" /><template is="d9cc654a" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,22 @@
+<template name="7ba95df9">
+  <view class="_view data-v-20199e3d column wrap w-all">
+    <view class="_view data-v-20199e3d shop bbx wrap  w-all" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-20199e3d">
+        <image src="{{item.img}}" class="_image data-v-20199e3d img"></image>
+      </view>
+      <view class="_view data-v-20199e3d space detail-box bbx">
+        <view class="_view data-v-20199e3d column ">
+          <text class="_text data-v-20199e3d shop-title"> {{item.title}} </text>
+          <text class="_text data-v-20199e3d"> {{item.position}} </text>
+          <view class="_view data-v-20199e3d"></view>
+          <text class="_text data-v-20199e3d"> {{item.starts}} </text>
+          <view class="_view data-v-20199e3d"></view>
+          <text class="_text data-v-20199e3d"> {{item.watch}} </text>
+        </view>
+        <view class="_view data-v-20199e3d column">
+          <text class="_text data-v-20199e3d"> {{item.distance}} </text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

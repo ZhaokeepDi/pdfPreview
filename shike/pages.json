@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/gourmet_city",
+			"style": {
+				"navigationBarTitleText": "美食商城"
+			}
+		},
+		{
+			"path": "pages/daohang",
+			"style": {
+				"navigationBarTitleText": "导航"
+			}
+		},
+		{
+			"path": "pages/day_good",
+			"style": {
+				"navigationBarTitleText": "每日佳作"
+			}
+		},
+		{
+			"path": "pages/store",
+			"style": {
+				"navigationBarTitleText": "食客驿站"
+			}
+		},
+		{
+			"path": "pages/list/history",
+			"style": {
+				"navigationBarTitleText": "我的足迹",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/circle",
+			"style": {
+				"navigationBarTitleText": "吃货圈",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/list/myInfo",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		}
+	],
+	"tabBar":{
+		"color":"#555",
+		"selectedColor":"#FF5F17",
+		"list":[
+			{
+				"pagePath":"pages/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/list/history",
+				"iconPath": "static/history.jpg",
+				"selectedIconPath": "static/home.png",
+				"text":"足迹"
+			},
+			{
+				"pagePath":"pages/circle",
+				"iconPath": "static/strigo.jpg",
+				"selectedIconPath":"static/s_strigo.jpg",
+				"text":"吃货圈"
+			},
+			{
+				"pagePath":"pages/list/myInfo",
+				"iconPath": "static/user.jpg",
+				"selectedIconPath": "static/home.png",
+				"text":"我的"
+			}
+			
+		] 
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

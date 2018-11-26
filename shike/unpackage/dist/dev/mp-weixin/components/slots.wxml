@@ -1,0 +1,8 @@
+<import src="/components/display.vue.wxml" />
+<import src="/components/serch.vue.wxml" />
+<import src="/components/serch.vue.wxml" />
+<import src="/components/header.vue.wxml" />
+<import src="/components/serch.vue.wxml" />
+<import src="/components/header.vue.wxml" />
+<import src="/components/display.vue.wxml" />
+<import src="/components/header.vue.wxml" />

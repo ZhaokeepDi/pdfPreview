@@ -1,0 +1,82 @@
+<import src="/components/display.vue.wxml" />
+<template name="4aa1261f">
+  <scroll-view class="_scroll-view data-v-41d6ce10 content column">
+    <navigator url="store" class="_navigator data-v-41d6ce10">sssssssss</navigator>
+    <view class="_view data-v-41d6ce10 space itemCenter top bbx gap white" bindtap="handleProxy" data-eventid="{{'MEv-3'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-41d6ce10 picker itemCenter">
+        <image src="../../static/index/dinwei.jpg" class="_image data-v-41d6ce10"></image>
+        <picker mode="selector" range="{{indexData.position}}" bindchange="handleProxy" data-eventid="{{'mIK-0'}}" data-comkey="{{$k}}" class="_picker data-v-41d6ce10">
+          <view class="_view data-v-41d6ce10 block ellipsis transition" style=" {{serchBoxState.place}}">
+            <text class="_text data-v-41d6ce10"> {{textValue}} </text>
+          </view>
+        </picker>
+        <view class="_view data-v-41d6ce10 trigo reght"></view>
+      </view>
+      <view class="_view data-v-41d6ce10 itemCenter bbx serch transition" bindtap="handleProxy" data-eventid="{{'s52-2'}}" data-comkey="{{$k}}" style=" {{serchBoxState.serch}}">
+        <image src="../../static/index/sousuo.jpg" style="width:16px;height:16px" class="_image data-v-41d6ce10"></image>
+        <input class="_input data-v-41d6ce10 h-all" type="text" bindblur="handleProxy" bindconfirm="handleProxy" placeholder="烧烤串串" value="{{indexData.serchData}}" bindinput="handleProxy" focus="{{focus}}" data-eventid="{{'Qn1-1'}}" data-comkey="{{$k}}"
+        />
+      </view>
+    </view>
+    <view class="_view data-v-41d6ce10 swiper" style="background:red white">
+      <swiper class="_swiper data-v-41d6ce10 all" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}">
+        <swiper-item class="_swiper-item data-v-41d6ce10 all" wx:key="index" key="{{index}}" wx:for="{{indexData.swiperImg}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-41d6ce10 swiper-item all">
+            <navigator url="{{item.url}}" class="_navigator data-v-41d6ce10 all">
+              <image class="_image data-v-41d6ce10 all" src="{{item.img}}" mode="widthFix"></image>
+            </navigator>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-41d6ce10 food-type gap white">
+      <view class="_view data-v-41d6ce10 column center itemCenter" wx:key="index" key="{{index}}" wx:for="{{indexData.typeList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-41d6ce10 food-icon">
+          <navigator url="{{item.url}}" class="_navigator data-v-41d6ce10">
+            <image class="_image data-v-41d6ce10 all" src="{{item.icon}}"></image>
+          </navigator>
+        </view>
+        <text class="_text data-v-41d6ce10">{{item.name}}</text>
+      </view>
+    </view>
+    <view class="_view data-v-41d6ce10 column white bbx netwrok-cate gap">
+      <view class="_view data-v-41d6ce10">
+        <text class="_text data-v-41d6ce10"> 网红美食</text>
+      </view>
+      <view class="_view data-v-41d6ce10 small space row-centenr">
+        <view class="_view data-v-41d6ce10 bbx">
+          <navigator class="_navigator data-v-41d6ce10 all" url="{{indexData.netwrokCate[0].url}}">
+            <image class="_image data-v-41d6ce10 all radius5" src="{{indexData.netwrokCate[0].img}}"></image>
+          </navigator>
+        </view>
+        <view class="_view data-v-41d6ce10 bbx">
+          <navigator class="_navigator data-v-41d6ce10 all" url="{{indexData.netwrokCate[1].url}}">
+            <image class="_image data-v-41d6ce10 all radius5" src="{{indexData.netwrokCate[1].img}}"></image>
+          </navigator>
+        </view>
+        <view class="_view data-v-41d6ce10 bbx">
+          <navigator class="_navigator data-v-41d6ce10 all" url="{{indexData.netwrokCate[2].url}}">
+            <image class="_image data-v-41d6ce10 all radius5" src="{{indexData.netwrokCate[2].img}}"></image>
+          </navigator>
+        </view>
+      </view>
+      <view class="_view data-v-41d6ce10 big bbx">
+        <navigator class="_navigator data-v-41d6ce10 all" url="{{indexData.netwrokCate[3].url}}">
+          <image class="_image data-v-41d6ce10 all radius5" src="{{indexData.netwrokCate[3].img}}"></image>
+        </navigator>
+      </view>
+    </view>
+    <view class="_view data-v-41d6ce10 footer bbx whit column">
+      <view class="_view data-v-41d6ce10 footer-top space row-centenr">
+        <view class="_view data-v-41d6ce10 itemCenter radius5 row-centenr">排行</view>
+        <view class="_view data-v-41d6ce10 itemCenter radius5 row-centenr">精品</view>
+      </view>
+      <view class="_view data-v-41d6ce10 Three-meals">
+        <text class="_text data-v-41d6ce10"> 一日三餐 </text>
+      </view>
+      <view class="_view data-v-41d6ce10 column footer-recommend" wx:key="index" key="{{index}}" wx:for="{{indexData.recommend}}" wx:for-index="index" wx:for-item="item">
+        <template data="{{...$root['0'], ...$root[$kk+'LeO-1-'+index],$root}}" is="7fe61827"></template>
+      </view>
+    </view>
+  </scroll-view>
+</template>
